@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Detroit Blight Ticket Compliance</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type= "text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+<body>
+    <div class="img"></div>
+    <form class="form">
+        <div><h2>Detroit Blight Ticket Compliance</h2>
+        </div>
+        <div>
+            <label for="uiFine">Fine</label>
+        </div>
+            <input class="textInput" name="fine" id="uiFine" required value="250.00">
+
+        <div>
+            <label for="uiDiscount">Discount</label>
+        </div>
+            <input class = "textInput" name="discount" id="uiDiscount" value="0.00">
+
+        <div>
+            <label for="uiJamount">Judgment Amount</label>
+        </div>
+            <input class = "textInput" name="jamount" id="uiJamount" required value="305.00">
+        
+        <div>
+            <label for="uiLate">Late Fee</label>
+        </div>
+            <input class = "textInput" name="late" id="uiLate" value="25.00">
+    </form>
+    <form class="form">
+        <div>
+            <button class="button" onclick="onClickedSubmit()" type="button">Compliance</button>
+        </div>
+        <div id="uiProb" class="result">   <h2></h2> </div>
+        <div>
+            <button class="button" type="button">Rest</button>
+        </div>
+    </form>
+</body>
+</html>
