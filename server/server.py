@@ -1,8 +1,5 @@
 __author__ = 'maheshwickramasinghe'
 
-
-#import sys
-#sys.path.append('./server')
 import util
 from flask import Flask, request, jsonify
 
@@ -25,5 +22,4 @@ def predict_prob_compliance():
 
 
 if __name__ == "__main__":
-    print("Starting python Flask server")
     app.run(debug=True)

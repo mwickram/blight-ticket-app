@@ -25,5 +25,4 @@ def predict_prob_compliance(fine, discount, judgment_amount, late_fee):
         compliance = 'Moderate'
 
     return compliance
-#if __name__=="__main__":
-    #print(predict_prob_compliance(fine=250.0, discount=0.0, judgment_amount=305.0, late_fee=25))
+    
