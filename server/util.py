@@ -4,6 +4,11 @@ import pandas as pd
 import pickle
 
 def predict_prob_compliance(fine, discount, judgment_amount, late_fee):
+    '''Return status of compliance - Low, Moderate, High
+
+    Define these status based on probability values of 
+    fine amount to be paid on time
+    '''
 
     with open('./model/blight_ticket_violation_model.pickle', 'rb') as file:
         model = pickle.load(file)
