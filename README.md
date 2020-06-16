@@ -7,4 +7,4 @@ This web application predicts Detroit blight compliance status - Low, Moderate, 
 # Machine Learning Model:
 
 Development of the machine learning model is here
-https://github.com/mwickram/Detroit-Blight-Ticket-Compliance
+https://mwickram.github.io/Detroit-Blight-Ticket-Compliance/blight-model.html
